@@ -20,8 +20,8 @@ public class StatisticTestB {
     @Test
     void findM() {
         StatisticServiceB service = new StatisticServiceB();
-        long[] incomesInBillions = {12, 5, 8, 14, 5, 3, 8, 6, 11, 11, 12};
-        long expected = 14;
+        long[] incomesInBillions = {12, 5, 8, 17, 5, 3, 8, 6, 11, 11, 12};
+        long expected = 17;
 
         long actual = service.findMax(incomesInBillions);
 
